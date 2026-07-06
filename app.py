@@ -35,10 +35,13 @@ def criar_projeto():
           properties:
             titulo:
               type: string
+              example: Projeto Teste
             stack:
               type: string
+              example: Python
             repo_url:
               type: string
+              example: https://github.com/igoraraujocunha
     responses:
       201:
         description: Sucesso
